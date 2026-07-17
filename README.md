@@ -118,17 +118,6 @@ Recommended Movies:
 - Avatar
 - Guardians of the Galaxy
 ```
-
-## Future Improvements
-
-* User authentication
-* Personalized recommendations
-* Watchlist feature
-* Database integration (SQLite/MySQL)
-* Advanced recommendation algorithms
-* Movie search autocomplete
-* Deployment to Streamlit Cloud or Render
-
 ## Author
 
 Ayela Ahsan
