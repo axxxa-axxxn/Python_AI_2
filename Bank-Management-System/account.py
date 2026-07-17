@@ -6,26 +6,29 @@ class Account:
         self.name = name
         self.balance = balance
 
-
     def deposit(self, amount):
 
-        self.balance += amount
+        if amount <= 0:
+            print("Invalid deposit amount!")
+            return
 
+        self.balance += amount
         print("Deposit successful!")
 
-
     def withdraw(self, amount):
+
+        if amount <= 0:
+            print("Invalid withdrawal amount!")
+            return
 
         if amount <= self.balance:
 
             self.balance -= amount
-
             print("Withdrawal successful!")
 
         else:
 
             print("Insufficient balance!")
-
 
     def display(self):
 
